@@ -14,6 +14,10 @@
     color: aliceblue;
 }
 
+.profile-details {
+    margin-right: 40px;
+}
+
 .profile-details-name {
     font-size: 26px;
     font-family: "Poppins SemiBold";
@@ -78,3 +82,45 @@
     transform: scale(1.07);
     transition: 1s ease-out;
 } */
+
+
+.slideshow {
+  margin: 20px auto;
+  overflow: hidden;
+  height: 500px;
+  max-width: 500px;
+}
+
+.slideshowSlider {
+  white-space: nowrap;
+  transition: ease 1000ms;
+}
+
+.slide {
+  display: inline-flex;
+  height: 400px;
+  width: 100%;
+  border-radius: 40px;
+}
+
+/* Buttons */
+
+.slideshowDots {
+  text-align: center;
+}
+
+.slideshowDot {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+
+  cursor: pointer;
+  margin: 15px 7px 0px;
+
+  background-color: #300c79;
+}
+
+.slideshowDot.active {
+  background-color: #000000;
+}
