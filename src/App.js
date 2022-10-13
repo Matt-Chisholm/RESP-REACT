@@ -1,9 +1,9 @@
-import './App.css';
-import Profile from './Components/Profile';
+import "./App.css";
+import Profile from "./PortfolioContainer/Home/Profile";
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <Profile />
     </div>
   );
