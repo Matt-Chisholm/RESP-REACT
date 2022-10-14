@@ -96,8 +96,8 @@ export default function Profile() {
                 <span style={{ whiteSpace: "pre" }} ref={el} />
               </h1>
               <span className='profile-role-tagline'>
-                I am passionate about daily learning and building great UI with
-                creative back-end solutions.
+                Clean UI, beautiful design and creative back-end solutions
+                inspire me.
               </span>
             </span>
           </div>

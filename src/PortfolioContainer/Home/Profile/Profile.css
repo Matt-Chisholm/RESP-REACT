@@ -5,7 +5,6 @@
     justify-content: center;
     height: 10%;
     min-height: fit-content;
-    background-image: url('../../assets/bg.jpg');
 }
 
 .profile-parent {
@@ -31,7 +30,7 @@
 
 .profile-details-role h1 {
     font-size: 40px;
-    font-family: cursive;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .primary-text {
@@ -39,7 +38,7 @@
 }
 
 .highlighted-text {
-    color: var(--dark-orange)
+    color:rgb(69, 190, 255);
 }
 
 .profile-role-tagline {
@@ -94,7 +93,7 @@
     color: orange;
 }
 
-@media screen and (max-widthL 1110px) {
+@media screen and (max-width: 1110px) {
     .profile-picture {
         margin: 0 0px 0 80px;
     }
@@ -132,5 +131,11 @@
 
     .profile-options, .profile-details-role {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .profile-details {
+        width: 90%;
     }
 }
