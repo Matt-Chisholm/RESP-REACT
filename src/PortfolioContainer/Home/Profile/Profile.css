@@ -29,8 +29,8 @@
 }
 
 .profile-details-role h1 {
-    font-size: 40px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    font-family: 'Teko';
     color:rgb(69, 190, 255);
 }
 
@@ -46,6 +46,10 @@
     font-size: 19px;
     margin: 5px 0 0 0;
     font-family: "Poppins Light";
+}
+
+.profile-options button {
+    font-size: 14px;
 }
 
 .profile-options .highlighted-btn {
@@ -89,9 +93,13 @@
     padding-left: 0px;
 }
 
+.colz-icon svg {
+    margin: 10px;
+}
+
 .colz .colz-icon svg:hover {
     transform: scale(1.5);
-    color: orange;
+    box-shadow: inset;
 }
 
 @media screen and (max-width: 1110px) {
