@@ -3,11 +3,10 @@ import "./ScreenHeading.css";
 
 export default function ScreenHeading(props) {
   return (
-    <div classname='heading-container'>
-      <div classname='screen-heading'>
+    <div className='heading-container'>
+      <div className='screen-heading'>
         <span>{props.title}</span>
       </div>
-
       {props.subHeading ? (
         <div className='screen-sub-heading'>
           <span>{props.subHeading}</span>
@@ -15,12 +14,10 @@ export default function ScreenHeading(props) {
       ) : (
         <div></div>
       )}
-
-      <div className='heading separator'>
-        <div className='separator-line'>
-          <div className='separator-blob'>
-            <div></div>
-          </div>
+      <div className='heading-seperator'>
+        <div className='seperator-line'></div>
+        <div className='seperator-blob'>
+          <div></div>
         </div>
       </div>
     </div>
