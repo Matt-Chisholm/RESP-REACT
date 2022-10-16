@@ -25,7 +25,7 @@ export default function AboutMe(props) {
         "Passionate about React",
         "Redux for state management",
         "PostgreSQL",
-        "Typescript learner",
+        "Typescript",
       ],
       heading: "Here are a few highlights:",
     },

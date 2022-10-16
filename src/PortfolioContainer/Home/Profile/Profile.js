@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Profile.css";
 import Typed from "typed.js";
+import Carousel from "../../Carousel/Carousel";
 
 export default function Profile() {
   const el = React.useRef(null);
@@ -109,9 +110,7 @@ export default function Profile() {
           </div>
         </div>
         <div className='icon-container'>
-          <FontAwesomeIcon icon='fa-brands fa-react' />
-          <FontAwesomeIcon icon='fa-brands fa-square-js' />
-          <FontAwesomeIcon icon='fa-brands fa-github' />
+          <Carousel />
         </div>
       </div>
     </div>

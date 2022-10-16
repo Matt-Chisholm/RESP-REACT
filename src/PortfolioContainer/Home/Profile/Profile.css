@@ -72,20 +72,14 @@
     margin: 0 0px 0 100px;
 }
 
-/* .profile-picture-background {
+.icon-container {
     height: 92%;
     width: 92%;
-    background-image: url('../../assets/profile.jpg');
     background-size: cover;
     border-radius: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
+    margin-top: 2em;
+    margin-right: 6em;
 }
-
-.profile-picture-background:hover {
-    transform: scale(1.07);
-    transition: 1s ease-out;
-} */
 
 .colz-icon {
     color: whitesmoke;
