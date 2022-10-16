@@ -4,7 +4,6 @@ import { totalScreens, getScreenIndex } from "../../../utilities/commonUtils";
 import ScrollService from "../../../utilities/ScrollService";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import robo from "../../../assets/robo.png";
 
 export default function Header() {
   const [selectedScreen, setSelectedScreen] = useState(0);

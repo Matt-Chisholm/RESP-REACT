@@ -3,7 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 50px 0 0 0;
+  margin: 50em 0 0 0;
+    color: whitesmoke;
 }
 .about-me-parent {
   max-width: 1000px;
@@ -15,12 +16,13 @@
   border-radius: 10%;
   width: 100%;
   box-shadow: 0 0px 20px -2px #8b8b8c;
-  background-image: url('https://image.freepik.com/free-vector/dark-blue-watercolor-background-design_1034-737.jpg');
+  /* background-image: url('https://image.freepik.com/free-vector/dark-blue-watercolor-background-design_1034-737.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-blend-mode: overlay;
+  background-blend-mode: overlay; */
   opacity: 95%;
+  background-color: #1f2235;
 }
 .about-me-profile {
   border-radius: 10%;
