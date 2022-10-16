@@ -1,5 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Profile.css";
 import Typed from "typed.js";
 import Carousel from "../../Carousel/Carousel";

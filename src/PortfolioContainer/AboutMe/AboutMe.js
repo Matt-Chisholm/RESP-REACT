@@ -26,6 +26,7 @@ export default function AboutMe(props) {
         "Redux for state management",
         "PostgreSQL",
         "Typescript",
+        "Express and NodeJS",
       ],
       heading: "Here are a few highlights:",
     },

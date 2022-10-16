@@ -11,10 +11,19 @@
 }
 .about-me-card {
   display: flex;
+  background-color: rgb(177, 221, 231);
+  border-radius: 10%;
   width: 100%;
-  box-shadow: 0 0px 20px -2px #1f2235;
+  box-shadow: 0 0px 20px -2px #8b8b8c;
+  background-image: url('https://image.freepik.com/free-vector/dark-blue-watercolor-background-design_1034-737.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  opacity: 95%;
 }
 .about-me-profile {
+  border-radius: 10%;
   width: 50%;
   background-image: url("../../assets/aboutMe/me.jpg");
   background-size: cover;
@@ -27,21 +36,26 @@
   padding: 30px;
 }
 .about-me-description {
-  font-size: 12px;
+  font-size: 18px;
 }
 .about-me-highlights {
   margin: 80px 0;
+  font-size: 18px;
 }
 .highlght-heading {
   font-family: "Poppins Bold";
-  font-size: 14px;
+  font-size: 18px;
   margin: 0 0 5px 0;
+}
+.highlght-heading span {
+  font-size: 16px;
+  font-weight: 100;
 }
 .highlight {
   display: flex;
   align-items: center;
   margin: 5px 0;
-  font-size: 12px;
+  font-size: 16px;
 }
 .highlight-blob {
   height: 12px;
@@ -80,3 +94,4 @@
     width: 100%;
   }
 }
+

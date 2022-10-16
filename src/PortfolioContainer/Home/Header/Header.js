@@ -67,7 +67,10 @@ export default function Header() {
             <FontAwesomeIcon className='header-hamburger-bars' icon={faBars} />
           </div>
           <div className='header-logo'>
-            <img className='robo' src={robo} alt='robo logo' />
+            <img
+              alt=''
+              src='https://img.icons8.com/external-photo3ideastudio-gradient-photo3ideastudio/100/000000/external-robot-digital-business-photo3ideastudio-gradient-photo3ideastudio.png'
+            />
           </div>
           <div
             className={

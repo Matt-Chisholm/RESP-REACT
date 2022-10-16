@@ -21,7 +21,8 @@
 }
 
 .robo {
-    width: 3em;
+    width: 10em;
+    box-shadow: whitesmoke;
 }
 
 .header-options {
