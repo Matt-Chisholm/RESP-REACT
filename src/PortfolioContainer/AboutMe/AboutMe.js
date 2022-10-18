@@ -44,7 +44,9 @@ export default function AboutMe(props) {
   };
 
   return (
-    <div className='about-me-container screen-container fade-in' id={props.id || ""}>
+    <div
+      className='about-me-container screen-container fade-in'
+      id={props.id || ""}>
       <div className='about-me-parent'>
         <ScreenHeading title={"About Me"} subHeading={"Why Choose Me?"} />
         <div className='about-me-card'>
@@ -66,7 +68,9 @@ export default function AboutMe(props) {
                 {" "}
                 Hire Me{" "}
               </button>
-              <a href='https://resume.creddle.io/resume/7w30gjoqxwq'>
+              <a
+                href='https://resume.creddle.io/resume/7w30gjoqxwq'
+                target={"_blank"}>
                 <button className='btn highlighted-btn'>See Resume</button>
               </a>
             </div>
