@@ -25,10 +25,16 @@ export default class ScrollService {
 
   scrollToHome = () => {
     let homeScreen = document.getElementById("Home");
-    console.log("WOW");
     if (!homeScreen) return;
 
     homeScreen.scrollIntoView({ behavior: "smooth" });
+  };
+
+  scrollToProjects = () => {
+    let projectScreen = document.getElementById("Projects");
+    if (!projectScreen) return;
+
+    projectScreen.scrollIntoView({ behavior: "smooth" });
   };
 
   /* CHECK IF ELEMENT IS IN VIEW .this simply means if the document appears fully on the screen or not */
