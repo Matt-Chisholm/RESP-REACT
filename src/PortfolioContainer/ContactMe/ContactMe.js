@@ -81,7 +81,7 @@ export default function ContactMe(props) {
   }, []);
 
   return (
-    <div className='main-container' id={props.id || ""}>
+    <div className='main-container fade-in' id={props.id || ""}>
       <ScreenHeading subHeading={"Let's keep in touch."} title={"Contact Me"} />
       <div className='central-form'>
         <div className='col'>
@@ -178,6 +178,14 @@ export default function ContactMe(props) {
             </div>
           </form>
         </div>
+      </div>
+      <div className='scroll-container'>
+        <button
+          className='btn-scroll'
+          onClick={() => ScrollService.scrollHandler.scrollToHome()}>
+          {" "}
+          <i className='fa fa-arrow-up'></i>
+        </button>
       </div>
     </div>
   );

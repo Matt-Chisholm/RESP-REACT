@@ -23,7 +23,7 @@ export default () => (
         />
       </div>
       <div key={3} style={style}>
-        <img src='https://img.icons8.com/fluency/200/000000/css3.png' alt='' />
+        <img src='https://img.icons8.com/offices/100/000000/sql.png' alt='' />
       </div>
       <div key={4} style={style}>
         <img

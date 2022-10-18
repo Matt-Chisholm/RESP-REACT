@@ -2,6 +2,7 @@ import React from "react";
 import "./Profile.css";
 import Typed from "typed.js";
 import Carousel from "../../Carousel/Carousel";
+import ScrollService from "../../../utilities/ScrollService";
 
 export default function Profile() {
   const el = React.useRef(null);
@@ -104,7 +105,12 @@ export default function Profile() {
             </span>
           </div>
           <div className='profile-options'>
-            <button className='btn primary-btn'> Contact Me </button>
+            <button
+              className='btn primary-btn'
+              onClick={() => ScrollService.scrollHandler.scrollToHireMe()}>
+              {" "}
+              Contact Me{" "}
+            </button>
             <a href='https://resume.creddle.io/resume/7w30gjoqxwq'>
               <button className='btn highlighted-btn'>See Resume</button>
             </a>

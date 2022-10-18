@@ -1,10 +1,10 @@
 .main-container {
     min-height: 100vh;
-    margin-top: 50em;
+    margin-top: 30em;
 }
 
 .central-form {
-    max-width: 1100px;
+    max-width: 1300px;
     padding: 10px;
     display: flex;
     border-radius: 10%;
@@ -12,6 +12,7 @@
     flex-direction: column;
     justify-content: center;
     background-color: #1f2235;
+     box-shadow: 0 0px 20px -2px #8b8b8c;
 }
 
 .central-form h2 {
@@ -154,4 +155,48 @@ form {
     form {
         flex: 0.9;
     }
+}
+
+.scroll-container {
+  position: absolute;
+  text-align: center;
+  right: 0;
+  margin-right: 9px;
+  overflow: hidden;
+  flex-direction: column;
+  margin-top: 55px;
+  z-index: 100;
+  cursor: pointer;
+}
+@media only screen and (min-width: 475px) {
+  .scroll-container {
+    margin-bottom: 10px;
+  }
+}
+.btn-scroll {
+  width: 50px;
+  height: 50px;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  background-color: rgb(67, 230, 255);
+  border-radius: 10px;
+  border: none;
+  margin-top: 10vh;
+}
+.btn-scroll i:hover {
+  transform: rotate(360deg);
+  color: aliceblue;
+}
+
+.btn-scroll i {
+  -webkit-animation: mover 0.5s infinite alternate;
+  animation: mover 0.5s infinite alternate;
+}
+@keyframes mover {
+  100% {
+    transform: translateY(-5px);
+  }
+  0% {
+    transform: translateX(0px);
+  }
 }
