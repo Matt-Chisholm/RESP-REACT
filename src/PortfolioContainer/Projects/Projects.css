@@ -42,7 +42,6 @@
 .projects-card {
       display: flex;
   background-color: rgb(177, 221, 231);
-  border-radius: 10%;
   width: 100%;
   box-shadow: 0 0px 10px -2px #000000;
     opacity: 95%;
@@ -101,8 +100,9 @@
 }
 
 .projects-description {
-  font-family: "Poppins Bold";
-  font-size: 14px;
+  font-family: "Poppins Regular";
+  font-size: 18px;
   margin: 0 0 5px 0;
-  margin-bottom: 2em;
+  margin: 2em;
+  text-align: justify;
 }

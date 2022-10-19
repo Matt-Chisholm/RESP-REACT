@@ -16,7 +16,9 @@ export default function Projects(props) {
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
   return (
-    <div className='projects-container'>
+    <div
+      className='projects-container screen-container fade-in'
+      id={props.id || ""}>
       <ScreenHeading
         title='Projects'
         subHeading='A few things I have worked on'
@@ -42,11 +44,11 @@ export default function Projects(props) {
               </a>
             </div>
             <div className='projects-description'>
-              <h4>
+              <span>
                 PAWFIVE is a specialized training app for dogs, supported by
                 their owners, to track their skill progressions and sessions,
                 while aided by voice recognition features.
-              </h4>
+              </span>
             </div>
             <div className='projects-stack'>
               <span>React</span>
@@ -79,9 +81,9 @@ export default function Projects(props) {
               </a>
             </div>
             <div className='projects-description'>
-              <h4>
+              <span>
                 A google map interface using Typescript and the Google Maps API.
-              </h4>
+              </span>
             </div>
             <div className='projects-stack'>
               <span>Typescript</span>
@@ -112,10 +114,10 @@ export default function Projects(props) {
               </a>
             </div>
             <div className='projects-description'>
-              <h4>
+              <span>
                 Twatch is an unhosted, fully functioning twitch clone, with
                 google authorization and multi-stream capabilities.
-              </h4>
+              </span>
             </div>
             <div className='projects-stack'>
               <span>React</span>
