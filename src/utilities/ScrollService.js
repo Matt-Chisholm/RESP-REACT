@@ -32,8 +32,9 @@ export default class ScrollService {
 
   scrollToProjects = () => {
     let projectScreen = document.getElementById("Projects");
+    console.log("returning");
     if (!projectScreen) return;
-
+    console.log("success");
     projectScreen.scrollIntoView({ behavior: "smooth" });
   };
 
