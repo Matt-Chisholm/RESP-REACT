@@ -23,7 +23,7 @@ export default function Projects(props) {
         title='Projects'
         subHeading='A few things I have worked on'
       />
-      <div className='projects-parent'>
+      <div className='projects-parent parent-1'>
         <div className='projects-card'>
           <div className='projects-img-1'>{}</div>
           <div className='projects-card-header'>
@@ -60,7 +60,7 @@ export default function Projects(props) {
           </div>
         </div>
       </div>
-      <div className='projects-parent'>
+      <div className='projects-parent parent-2'>
         <div className='projects-card'>
           <div className='projects-img-2'>{}</div>
           <div className='projects-card-header'>
@@ -93,7 +93,7 @@ export default function Projects(props) {
           </div>
         </div>
       </div>
-      <div className='projects-parent'>
+      <div className='projects-parent parent-3'>
         <div className='projects-card'>
           <div className='projects-img-3'>{}</div>
           <div className='projects-card-header'>
